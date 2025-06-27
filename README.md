@@ -183,7 +183,7 @@ patience      = 10
 rgb color map dict for BUS-BRA 3 classes.<br>
 <pre>
 [mask]
-mask_file_format = ".npz"
+mask_file_format = ".png"
 ; rgb color map dict for 1+2 classes
 ; BUS-BRA   black     bengin:green, malignant:red
 rgb_map = {(0,0,0):0, (0,255,0):1, (255,0,0):2,}
