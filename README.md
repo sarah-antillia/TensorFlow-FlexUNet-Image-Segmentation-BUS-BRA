@@ -11,7 +11,7 @@ BUS-BRA: A Breast Ultrasound Dataset for Assessing Computer-aided Diagnosis Syst
 <br><br>
 <hr>
 <b>Actual Image Segmentation for 512x512 BUS-BRA images</b><br>
-As shown below, the inferred masks look similar to the ground truth masks. <br><br>
+As shown below, the inferred masks look very similar to the ground truth masks. <br><br>
 <table>
 <tr>
 <th>Input: image</th>
@@ -23,13 +23,11 @@ As shown below, the inferred masks look similar to the ground truth masks. <br><
 <td><img src="./projects/TensorFlowFlexUNet/BUS-BRA/mini_test/masks/1-benign_0804-s.png" width="320" height="auto"></td>
 <td><img src="./projects/TensorFlowFlexUNet/BUS-BRA/mini_test_output/1-benign_0804-s.png" width="320" height="auto"></td>
 </tr>
-
 <tr>
 <td><img src="./projects/TensorFlowFlexUNet/BUS-BRA/mini_test/images/1-malignant_0010-r.png" width="320" height="auto"></td>
 <td><img src="./projects/TensorFlowFlexUNet/BUS-BRA/mini_test/masks/1-malignant_0010-r.png" width="320" height="auto"></td>
 <td><img src="./projects/TensorFlowFlexUNet/BUS-BRA/mini_test_output/1-malignant_0010-r.png" width="320" height="auto"></td>
 </tr>
-
 <tr>
 <td><img src="./projects/TensorFlowFlexUNet/BUS-BRA/mini_test/images/3-malignant_0233-s.png" width="320" height="auto"></td>
 <td><img src="./projects/TensorFlowFlexUNet/BUS-BRA/mini_test/masks/3-malignant_0233-s.png" width="320" height="auto"></td>
@@ -77,7 +75,7 @@ In addition, the Centro de Investigación y de Estudios Avanzados (Cinvestav, Me
 2 BUS-BRA ImageMask Dataset
 </a>
 </h3>
- If you would like to train this BUSBRA Segmentation model by yourself,
+ If you would like to train this BUS-BRA Segmentation model by yourself,
  please download the dataset from the google drive  
 <a href="https://drive.google.com/file/d/1BdLYvCPoL4ebT6l9tPBqO437ml8DgW_s/view?usp=sharing">
 Augmented-BUSBRA-ImageMaskDataset.zip</a>.
@@ -111,7 +109,6 @@ As shown above, the number of images of train and valid datasets is large enough
 <b>Train_masks_sample</b><br>
 <img src="./projects/TensorFlowFlexUNet/BUS-BRA/asset/train_masks_sample.png" width="1024" height="auto">
 <br>
-
 <h3>
 3 Train TensorFlowFlexUNet Model
 </h3>
